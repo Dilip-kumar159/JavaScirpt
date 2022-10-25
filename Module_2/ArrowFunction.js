@@ -3,12 +3,14 @@
 // Declaration of Arrow Function
 
 let test = () =>{
-    console.log("hi");
+    console.log("hi \nVery good"); // This is one way to write in a sequence order
 }
 
 
 let test1 = (a) =>{
-    console.log(a*a);
+    // console.log(a*a);
+    // This below code uses templates which is in form of back tick and dollar symbol
+    console.log(`The square of ${a} is ${a*a}`);
 }
 // For single parameter we can also declare
 let test5 = a => console.log(a*a);
