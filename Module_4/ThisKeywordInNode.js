@@ -8,6 +8,7 @@ function print(){
     console.log(this);
 }
 // print()  gives the gobal object
+// print() -> In Strict Mode it gives Undefined.
 
 // this keyword in object-> function
 
@@ -33,3 +34,4 @@ let obj2 = {
     }
 }
 obj2.fun() // returns the global object 
+// In Strict Mode it gives Undefined.
