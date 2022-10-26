@@ -1,6 +1,6 @@
 // This keyword in Node Js with non-strict mode
 
-// console with this 
+//  this keyword with console.log()
 console.log(this); // It gives empty object.
 
 // this keyword in function
