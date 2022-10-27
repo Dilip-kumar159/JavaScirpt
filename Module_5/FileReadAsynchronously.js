@@ -29,6 +29,18 @@ function callbackFun1(err, data){  // In case if there is no file present it thr
         console.log(err);
     }
     console.log('second file ---> ' + data);
+
+    fs.readFile('dummyFile2.txt', callbackFun2); // this makes the serial order to execute the call back function
+}
+
+
+
+
+function callbackFun2(err, data){  // In case if there is no file present it throws an error.
+    if(err){
+        console.log(err);
+    }
+    console.log('Third file ---> ' + data);
 }
 
 console.log('End Line')
