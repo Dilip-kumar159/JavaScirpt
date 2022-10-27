@@ -1,0 +1,3 @@
+This is a dummy file which is used to just demonstrate how the single threaded java script
+
+works and how it reads this file and executes the program Synchronously.
