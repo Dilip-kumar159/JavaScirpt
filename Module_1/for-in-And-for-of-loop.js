@@ -30,6 +30,10 @@ for(var ele of scores){
     console.log(ele);
 }
 
+// Syntax for forEach Loop
+console.log("For Each Loop Example")
+scores.forEach((val) => console.log(val))
+
 // This entries function prints the index of the element as well
 console.log('For of Loop using Entries Function');
 for(var [index, ele] of scores.entries()){
@@ -42,3 +46,4 @@ var str = 'Umbrella';
 for(var char of str){
     console.log(char);
 }
+
